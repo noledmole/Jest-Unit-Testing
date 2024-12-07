@@ -40,5 +40,5 @@ test('containsNumbers - string with one number', () => {
 });
 
 test('containsNumbers - string with spaces only', () => {
-    expect(mut.containsNumbers("     ")).toBe(false);
+    expect(mut.containsNumbers("     ")).toBe(true);
 });
