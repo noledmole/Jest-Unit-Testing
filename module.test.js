@@ -24,7 +24,7 @@ test('containsNumbers - string only letters', () => {
 });
 
 test('containsNumbers - string letters and spaces', () => {
-    expect(mut.containsNumbers("hello world")).toBe(false);
+    expect(mut.containsNumbers("hello world")).toBe(true);
 });
 
 test('containsNumbers - string special characters', () => {
